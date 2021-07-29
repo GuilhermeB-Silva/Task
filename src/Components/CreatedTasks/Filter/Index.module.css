@@ -30,22 +30,6 @@
     color:gray;
 }
 
-.containerFilter__button{
-    margin-left:1rem;
-    padding:0 1.5rem;
-    background:#00FF7F;
-    border-radius:5px;
-    color:gray;
-    font-weight:400;
-    cursor:pointer;
-    transition:background 400ms
-}
-
-.containerFilter__button:hover{
-    background:rgba(0,255,150)
-}
-
-
 @media(min-width:641px){
 
     .containerFilter{

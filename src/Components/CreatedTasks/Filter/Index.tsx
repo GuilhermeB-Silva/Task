@@ -32,9 +32,6 @@ export function FilterTasks({filter}:FilterProps){
 
             </div>
 
-            <button type="submit" className={styles.containerFilter__button}>Filtrar</button>
-
         </div>
-
     )
 }
