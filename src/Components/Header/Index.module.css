@@ -1,0 +1,24 @@
+.container{
+    background:#892DED;
+    padding:1rem 0;
+    text-align:center
+}
+
+.container__headerTitle{
+    text-align:center;
+    color:white;
+    margin:0;
+}
+
+.container__welcome{
+    color:#DCDCDC;
+}
+
+
+@media(max-width:768px){
+
+
+    .welcome__userName{
+        display:block
+    }
+}

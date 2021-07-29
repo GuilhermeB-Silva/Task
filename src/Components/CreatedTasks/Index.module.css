@@ -1,0 +1,18 @@
+.containerTasks{
+    max-width:800px;
+    width:90%;
+    margin:3rem auto 0;
+    position:relative;
+    border:1px solid gray;
+    padding:1rem 1rem;
+}
+
+.containerTasks__tasks{
+    font-size:1.5rem;
+    text-align:center;
+    margin:0 0 2rem;
+    color:#696969
+}
+
+
+

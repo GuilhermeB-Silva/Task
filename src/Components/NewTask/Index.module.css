@@ -1,0 +1,190 @@
+.containerTask{
+    max-width:800px;
+    width:90%;
+    margin:3rem auto 0;
+    border:1px solid gray;
+    padding:1rem 1rem;
+}
+
+.containerTask__title{
+    font-size:1.5rem;
+    text-align:center;
+    margin:0 0 2rem;
+    color:#696969
+}
+
+.createTask{
+    background:white;
+    padding:1rem;  
+    display:flex;
+    flex-direction: column;;
+    justify-content: space-between;
+    border-radius:5px;
+    margin:1rem 0;
+    
+}
+
+.createTask__date{
+    width:100%;
+    display:flex;
+    position:relative;
+    align-items:center;
+}
+
+.createTask__newDate{
+    width:50%;
+    display:flex;
+    align-items:center;
+    position:relative;
+    background:#E0FFFF;
+    border-radius:5px
+}
+
+.createTask__iconDate{
+    width:1.5rem;
+    height:1.5rem;
+    margin-right:.5rem
+}
+
+.createTask__taskDay{
+    font-size:.8rem;
+    color:#00BFFF;
+    display:block;
+}
+
+
+.createTask__addDate{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0
+}
+
+.createTask__showDate{
+    font-size:.7rem;
+    display:block;
+    width:50%;
+    text-align:center;
+    color:#696969
+}
+
+.createTask__addDetail{
+    width:100%;
+    margin:.5rem 0;
+}
+
+.createTask__newDescription{
+    border-radius:2px;
+    border:1px solid rgba(220,220,220,0.2);
+    height:1.5rem;
+    padding:0 .5rem;
+    font-size:.7rem;
+
+}
+
+.createTask__newDescription:focus{
+    outline:2px solid #892DED
+}
+
+
+.createTask__description{
+    color:gray
+}
+
+.createTask__status{
+    display:flex;
+    align-items:center;
+    width:100%;
+    padding:.5rem 0;
+    font-size:.8rem;
+    color:gray
+}
+
+.createTask__selectStatus{
+    border:1px solid rgba(220,220,220,0.2);
+    flex:1;
+    color:gray;
+    margin-left:.5rem;
+    text-align:center;
+    border-radius:5px;
+    padding:.3rem 0;
+}
+
+.createTask__selectStatus:focus{
+    border-color:var(--purple)
+}
+
+.containerTasks__addTask{
+    display:block;
+    
+    background:var(--purple);
+    width:max-content;
+
+    color:white;
+    font-size:.8rem;
+
+    margin:2rem auto 0;
+    padding:.5rem 1rem;
+
+    cursor:pointer;
+    border-radius:5px;
+    transition:background 200ms
+}
+
+
+
+
+@media(min-width:768px){
+
+    .createTask__newDate{
+        width:30%;
+    }
+    
+    .createTask__iconDate{
+        width:2rem;
+        height:2rem;
+    }
+    
+    .createTask__taskDay{
+        font-size:1rem;
+    }
+    
+    .createTask__showDate{
+        font-size:1rem;
+        width:70%;
+    }
+    
+    .createTask__addDetail{
+        margin:.9rem 0;
+    }
+
+    .createTask__newDescription{
+        padding:1.2rem .5rem;
+        font-size:.8rem;
+        width:100%;
+    }
+    
+    .createTask__status > label {
+        font-size:1rem;
+        width:60%;
+    }
+
+    .createTask__selectStatus{
+        padding:.8rem 0;
+        font-size:1rem;
+    }
+
+    
+    .containerTasks__addTask{
+     
+        font-size:1rem;
+
+    }
+
+    .containerTasks__addTask:hover{
+
+        background:#892DB5;
+
+    }
+
+}
